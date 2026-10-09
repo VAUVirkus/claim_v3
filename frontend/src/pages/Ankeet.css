@@ -1,0 +1,151 @@
+.ankeet-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.2rem;
+  color: #002E5E;
+}
+
+.form-wrapper {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.claim-form .form-group {
+  margin-bottom: 20px;
+}
+
+.claim-form label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.required {
+  color: #e74c3c;
+}
+
+.claim-form .filter-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.claim-form .filter-input:focus {
+  outline: none;
+  border-color: #002E5E;
+  box-shadow: 0 0 0 3px rgba(0, 46, 94, 0.1);
+}
+
+.text-area {
+  resize: vertical;
+  font-family: inherit;
+}
+
+.file-upload-zone {
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.file-upload-zone:hover {
+  border-color: #002E5E;
+  background-color: #f0f4f8;
+}
+
+.file-input-hidden {
+  display: none;
+}
+
+.file-upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  color: #555;
+}
+
+.upload-icon {
+  margin-bottom: 10px;
+  color: #002E5E;
+}
+
+.file-list {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  background-color: #eef1f6;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.file-name {
+  margin-left: 10px;
+  flex-grow: 1;
+  font-size: 0.9rem;
+}
+
+.remove-file-btn {
+  background: none;
+  border: none;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.remove-file-btn:hover {
+  color: #c0392b;
+}
+
+.form-actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit-btn {
+  padding: 12px 30px;
+  background-color: #002E5E;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.05rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #001a35;
+}
+
+.submit-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

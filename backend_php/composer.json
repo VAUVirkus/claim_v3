@@ -1,0 +1,14 @@
+{
+  "name": "vau/claim-backend-php",
+  "description": "AS Viljandi Aken ja Uks - Claim Management System v3.0 PHP Backend",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vau\\Claim\\": "src/"
+    }
+  }
+}
